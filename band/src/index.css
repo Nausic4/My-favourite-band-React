@@ -1,0 +1,13 @@
+body {
+  box-sizing: border-box;
+  background-color: rgb(37, 3, 3);
+  height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  text-align: center;
+}

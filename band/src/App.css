@@ -1,0 +1,33 @@
+ul {
+  list-style: none;
+  color: rgb(0, 0, 0);
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  background-color: rgb(138, 80, 9);
+}
+
+li {
+  margin: 10px;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:focus {
+  color: white;
+}
+
+.logo {
+  text-align: center;
+}
+
+img:not(.exclude) {
+  border-radius: 50%;
+}

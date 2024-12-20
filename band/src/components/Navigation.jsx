@@ -6,25 +6,30 @@ function Navigation() {
     <div className="navigation">
       <div className="logo">
         <Link to="/">
-          <img src={logo} alt={logo}></img>
+          <img className="exclude" src={logo} alt={logo}></img>
         </Link>
       </div>
       <nav>
         <ul>
           <li>
-            <NavLink to="/band">The Wailers</NavLink>
+            <NavLink to="/bob">
+              <b>Bob Marley</b>
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/bob">Bob Marley</NavLink>
+            <NavLink to="/peter">
+              <b>Peter Tosh</b>
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/peter">Peter Tosh</NavLink>
+            <NavLink to="/junior">
+              <b>Junior Braithwaite</b>
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/junior">Junior Braithwaite</NavLink>
-          </li>
-          <li>
-            <NavLink to="/bunny">Bunny Wailer</NavLink>
+            <NavLink to="/bunny">
+              <b>Bunny Wailer</b>
+            </NavLink>
           </li>
         </ul>
       </nav>
